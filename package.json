@@ -1,0 +1,30 @@
+{
+  "name": "boilerplate-siswa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src/js",
+    "lint:grader": "eslint ./src/js --format json -o eslint-report.json || true",
+    "htmlhint": "htmlhint ./src/**/*.html",
+    "htmlhint:grader": "htmlhint ./src/**/*.html --format json > htmlhint-report.json || true",
+    "stylelint": "stylelint ./src/css/**/*.css",
+    "stylelint:grader": "stylelint ./src/css/**/*.css -f json -o stylelint-report.json || true",
+    "jscpd": "jscpd ./src",
+    "jscpd:grader": "jscpd ./src --reporters json --output ./ || true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.8.0",
+    "globals": "^17.9.0",
+    "htmlhint": "^1.9.2",
+    "jscpd": "^5.0.14",
+    "stylelint": "^17.14.1",
+    "stylelint-config-standard": "^40.0.0"
+  }
+}

@@ -1,0 +1,1 @@
+console.log("Selamat datang di INFORMIND FEST 2026!");

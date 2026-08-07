@@ -1,0 +1,10 @@
+{
+  "tag-pair": true,
+  "src-not-empty": true,
+  "id-unique": true,
+  "doctype-first": true,
+  "tagname-lowercase": true,
+  "attr-lowercase": true,
+  "attr-value-double-quotes": true,
+  "alt-require": true
+}

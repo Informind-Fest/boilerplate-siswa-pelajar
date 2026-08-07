@@ -1,0 +1,13 @@
+{
+  "threshold": 35,
+  "reporters": ["html", "console", "json"],
+  "ignore": [
+    "**/node_modules/**",
+    "**/*.html",
+    "**/eslint.config.js"
+  ],
+  "absolute": true,
+  "gitignore": true,
+  "minLines": 4,
+  "minTokens": 45
+}
