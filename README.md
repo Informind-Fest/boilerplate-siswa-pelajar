@@ -43,7 +43,7 @@ Jika panitia menemukan indikasi kecurangan atau manipulasi pada file-file di ata
    - Dilarang meninggalkan `console.log()` pada hasil akhir kode Anda.
    - Dilarang membuat variabel yang pada akhirnya tidak pernah digunakan.
 3. **Anti-Duplikasi (Copy-Paste)**
-   - Sistem akan mendeteksi jika Anda terlalu banyak melakukan copy-paste pada file `.css` dan `.js` (Batas toleransi duplikasi maksimal adalah **40%**). Usahakan menulis kode secara mandiri dan rapi!
+   - Sistem akan mendeteksi jika Anda terlalu banyak melakukan copy-paste pada file `.css` dan `.js` (Batas toleransi duplikasi maksimal adalah **35%**). Usahakan menulis kode secara mandiri dan rapi!
    - Pengulangan pada file HTML tidak akan terkena penalti.
 
 ## Cara Mengecek Kode Anda Sendiri
